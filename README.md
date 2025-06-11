@@ -44,6 +44,7 @@ K-Means has a high recall (0.7371), which means that this method tends to captur
 The F1 Score of K-Means is also very low, reflecting a poor balance between precision and recall.
 
 **2. Visualization and Prediction Quality**
+
 U-Net provides clean, smooth, and ground truth segmentation, with IoU values ​​consistently above 0.8 in most cases.
 
 K-Means produces very noisy segmentation, with predictions scattered and not resembling the shape of the original lesion.
@@ -51,11 +52,24 @@ K-Means produces very noisy segmentation, with predictions scattered and not res
 On images with larger or more pronounced lesions, U-Net remains accurate, while K-Means does not show significant improvement.
 
 **3. Learning Curve**
+
 The loss and accuracy graphs show that the training and validation performance of U-Net is stable and improves with epochs.
 
 The validation accuracy reaches more than 0.96, indicating that the model generalizes well to unseen data.
 
 There is no significant overfitting, because the difference between training and validation is relatively small.
+
+## Conclusion
+
+U-Net significantly outperforms K-Means in the task of segmenting breast cancer lesions in ultrasound images.
+
+The quantitative performance of U-Net shows IoU and Dice Coefficient values ​​close to 0.8, indicating that the segmentation is very close to the ground truth.
+
+K-Means is not suitable for complex medical segmentation because the segmentation results are very noisy and imprecise, although the recall is high.
+
+U-Net is more consistent and reliable, suitable for use in medical image-based diagnostic support systems, especially in detecting benign/cancerous lesions in breast ultrasound.
+
+The performance of U-Net shows that deep learning approaches with special architectures such as U-Net are more effective than conventional clustering methods for medical segmentation.
 
 ## Reference
 [1]. Kemenkes RI. (2019). Hari Kanker Sedunia 2019. https://www.kemkes.go.id/article/view/19020100003/hari-kanker-sedunia2019.html.
