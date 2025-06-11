@@ -5,12 +5,8 @@ U-Net
 Dataset
 Results
 Model's prediction comparision on different datasets
-Activation Maps
-Getting Started
-Requirements
-Installation
 Dataset Directory Structure
-Deployments
+
 References
 
 
