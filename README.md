@@ -4,7 +4,7 @@ Breast cancer is one of the most common causes of death among women worldwide. E
 However, in this project, only benign segmentation is used to focus on identifying benign tumors and distinguishing them from normal and malignant tissues.
 
 ## Dataset
-The Breast Ultrasound Images Dataset consists of data collected at baseline, which includes breast ultrasound images from women aged between 25 and 75 years old. The data was collected in 2018, with a total of 600 female patients. The dataset contains 780 images, each with an average size of 500x500 pixels in PNG format. The images are categorized into three classes: normal, benign, and malignant. The benign class specifically has 437 images and 454 masks. Ground truth images are provided along with the original images.
+[The Breast Ultrasound Images Dataset](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset/data) consists of data collected at baseline, which includes breast ultrasound images from women aged between 25 and 75 years old. The data was collected in 2018, with a total of 600 female patients. The dataset contains 780 images, each with an average size of 500x500 pixels in PNG format. The images are categorized into three classes: normal, benign, and malignant. The benign class specifically has 437 images and 454 masks. Ground truth images are provided along with the original images.
 ![image](https://github.com/user-attachments/assets/f859fb52-c458-4876-9627-4e3262753bb2)
 
 
